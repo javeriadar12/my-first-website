@@ -1,0 +1,413 @@
+.main{
+  width: 35%;
+  height: 220vh;
+  margin-left: 80px;
+  border: 2px solid red;
+  display: inline-block;
+
+     }
+     nav {
+        
+       display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav li.right {
+        margin-right: 0;
+        margin-left: auto;
+      }
+      
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      nav img {
+        height: 30px;
+      }
+      
+      nav .call-me {
+        background-color: white;
+        color: #333;
+        border-radius: 20px;
+        padding: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+      .right{
+        padding-left: 10px;
+      }
+    
+      .nav-item  a{
+        font-size: 12px;
+        
+         }  
+    span{
+        color: darkgreen;
+    }
+    
+    .carousel-inner{
+      height: 200px;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+        
+    }
+    .carousel-caption p{
+      font-size: 15px;
+      padding-bottom: 15px;
+    }
+    .btn-2{
+      width: 100px;
+      height: 30px;
+      color: black;
+      background-color: orange;
+      font-size: 10px;
+      margin-bottom:50px;
+      border-radius: 10px;
+    }
+
+    .btn-2:hover{
+      color: white;
+      background-color: black;
+      text-decoration: underline;
+    
+    }
+    .our-adv{
+      background-color: wheat;
+    }
+    .our-adv h1{
+      font-size: 25px;
+      font-weight: 900px;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 10px;
+    }
+    .our-adv-flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 15px;
+      
+    }
+    .our-adv-flex h1{
+      font-size: 15px;
+      
+      
+    }
+    .our-adv-flex p{
+      font-size: 10px;
+    }
+    .about-us{
+      padding-top: 10px;
+      background-color: bisque;
+    }
+  
+    .about-us h1{
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .about-us-flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 15px;
+      
+    }
+    .content p{
+      font-size: 15px;
+    }
+    .img img{
+      height: 200px;
+      width: 200px;
+    }
+    .btn2-2{
+      width: 100px;
+      height: 30px;
+      color: black;
+      background-color: orange;
+      font-size: 10px;
+      margin-bottom:10px;
+      border-radius: 10px;
+      margin-left: 20px;
+    }
+    .btn2-2:hover{
+      color: white;
+      background-color: black;
+     text-decoration: underline;
+    }
+
+    .our-services{
+      background-color: antiquewhite;
+    }
+
+    .our-services h1{
+      font-size: 28px;
+      text-align: center;
+      padding-top: 15px;
+    }
+    .para{
+      font-size: 10px;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+     }
+     .our-services-flex{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+    
+     .our-services-flex h4{
+      font-size: 12px;
+      padding-top: 10px;
+        }
+       
+        .our-services-flex p{
+          font-size: 11px;
+        }
+        .our-services-flex a{
+          color: green;
+          font-size: 20px;
+        }
+        .our-services-flex a:hover{
+          text-decoration: none;
+          color:orange
+        }
+
+        .ourportfolio{
+          background-color: black;
+        }
+    
+        .ourportfolio h1{
+          font-size: 25px;
+          text-align: center;
+          padding-top: 10px;
+        }
+        .para1{
+          font-size: 11px;
+          text-align: center;
+          padding-left: 50px;
+          padding-right: 50px;
+          color: white;
+        }
+
+        .field ul{
+          display: flex;
+          justify-content: justify;
+        }
+
+        .field ul li{
+          list-style-type: none;
+          font-weight: bold;
+          padding: 7px;
+          text-transform: uppercase;
+          font-size: 13px;
+          
+        }
+        .field ul li:hover{
+          background-color: black;
+          color: white;
+          cursor: pointer;
+        }
+        .field-images{
+          padding-bottom: 20px;
+        }
+
+        .log{
+          color: orange;
+        }
+        .cloumn-1{
+          padding-left: 100px;
+        }
+
+        .cloumn-1 img{
+          width: 50px;
+        }
+        .cloumn-2{
+          padding-left: 100px;
+        }
+
+        .cloumn-2 img{
+          width: 50px;
+        }
+
+        /* right div */
+
+      .main2{
+        display: inline-block;
+        width: 37%;
+        border: 2px solid red;
+        height: 220vh;
+        margin-right: 40px;
+        position: absolute;
+        top:1px;
+        margin-left: 30px;
+        
+      }
+
+      /* our process section */
+      .container-our-process {
+        background-color: azure;
+      }
+      .container-our-process h3{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .container-our-process p{
+        font-size: 11px;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+
+      }
+
+      .our-process-flex{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    padding-top: 20px;    
+    }
+
+      .our-process-flex h1{
+        font-size: 10px;
+        padding-top: 8px;
+      }
+      .our-process-flex h1:hover{
+        text-decoration: underline;
+        }
+
+        /* our skill section */
+      
+        .our-skill{
+          background-color: antiquewhite;
+        }
+
+        .our-skill h1{
+          font-size: 25px;
+          text-align: center;
+          padding-top: 10px;
+        }
+
+        .our-skill p{
+          font-size: 11px;
+          text-align: center;
+          padding-left: 50px;
+          padding-right: 50px;
+
+        }
+
+        .our-skill-flex{
+          display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 20px;
+     }
+     .our-skill-flex figcaption{
+      padding-top: 10px;
+      font-weight: bold;
+     }
+
+     /* new project section */
+
+     .new-project{
+ 
+      margin-left: auto;
+      background-color: rgb(41, 117, 41);
+     
+   }
+   .new-project h1{
+      font-size: 20px;
+      text-align: center;
+      padding-top: 10px;
+      color: white;
+   }
+   .new-project p{
+      text-align: center;
+      font-size: 15px;
+      margin: 20px;
+   }
+  .new-project input {
+      width: 100px;
+      height: 40px;
+      margin: 10px 10px 10px 30px;
+      font-size: 14px;
+      
+  }
+  .new-project .btn{
+    width: 120px;
+      height: 40px;
+      font-size: 15px;
+      margin-left: 150px;
+
+  }
+  /* our contact section */
+  .our-contacts h3{
+    font-size: 25px;
+    
+    text-align: center; 
+}
+.our-contacts p{
+    text-align: center;
+    font-size: 10px; 
+   
+}
+
+/* footer section */
+
+.footer{
+  background-color: rgb(41, 117, 41);
+  height: 300px;
+  width: 494px;
+  margin-top: 2px;
+  
+  
+}
+.footer a{
+  text-decoration: none;
+}
+
+
+
+     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

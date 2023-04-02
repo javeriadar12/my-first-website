@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assests/style.css">
+  <title>navbar using bootstrap</title>
+</head>
+
+<body>
+  <div class="main">
+    <nav>
+      <ul>
+        <li><a href="#"><img src="./assests/images/fb logo.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="./assests/images/insta.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="./assests/images/twitter.png" alt="YouTube"></a></li>
+        <li><a href="#"><img src="./assests/images/youtube.png" alt="Instagram"></a></li>
+        <li class="right"><a href="#"><img src="./assests/images/call logo.png" alt="Instagram"></a></li>
+        <li class="right"><a href="#">555-123-4567</a></li>
+
+        <li class="right"><a href="#" class="call-me">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span>pana</span> <br>cloud</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">WHY US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">OUR SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+            </li>
+
+        </div>
+      </div>
+    </nav>
+    <!-- carousal start -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./assests/images/green image.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>we are experts</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda distinctio aspernatur?
+            </p>
+            <button type="button" class="btn btn-success btn-2">READ MORE</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="..." alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="..." alt="Third slide">
+        </div>
+      </div>
+    </div>
+    <!-- our advantage -->
+    <div class="our-adv">
+      <h1>our<span> advantage</span></h1>
+      <!-- find icon -->
+      <div class="our-adv-flex">
+        <figure>
+          <img src="./assests/images/bulb.jpg" alt="bulb image" width="45px" height="45px">
+          <figcaption>
+            <h1>INNOVATION</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assests/images/thumsup.png" alt="thumsup" width="45px" height="35px">
+          <figcaption>
+            <h1>QUALITY</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assests/images/clock.png" alt="clock" width="45px" height="35px">
+          <figcaption>
+            <h1>EXPERIENCE</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assests/images/people.png" alt="people" width="45px" height="35px">
+          <figcaption>
+            <h1>PEOPLE</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assests/images/chatbox.jpg" alt="cahtbox" width="45px" height="35px">
+          <figcaption>
+            <h1>SUPPORT</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+    <!--about us section -->
+    <div class="about-us">
+      <h1>ABOUT<span> US</span></h1>
+      <div class="about-us-flex">
+        <div class="content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium odit eius, nisi quos distinctio,
+            ullam cupiditate qui sed deserunt, aspernatur voluptatem nam eaque sunt velit atque error magni quaerat
+            incidunt.</p>
+          <button type="button" class="btn btn-success btn2-2">READ MORE</button>
+        </div>
+        <div class="img"><img src="./assests/images/about us.jpeg" alt="about us"></div>
+
+      </div>
+    </div>
+
+    <!-- our services -->
+    <div class="our-services">
+      <h1>OUR<span> SERVICES</span></h1>
+      <div class="para">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quae tenetur quaerat est illo. Consequuntur
+          aliquam voluptatum adipisci ratione et.</p>
+      </div>
+      <div class="our-services-flex">
+        <!-- icons find -->
+        <figure> <img src="./assests/images/yellow rating.jpg" alt="yellow star" width="45px" height="45px">
+          <figcaption>
+            <h4>WEB DESIGN</h4>
+            <P>Lorem ipsum dolor sit amet.</P>
+            <a href="#">read more</a>
+          </figcaption>
+        </figure>
+
+        <figure> <img src="./assests/images/yellow rating.jpg" alt="yellow star" width="45px" height="45px">
+          <figcaption>
+            <h4>GRAPHIC DESIGN</h4>
+            <P>Lorem ipsum dolor sit amet.</P>
+            <a href="#">read more</a>
+          </figcaption>
+        </figure>
+
+        <figure> <img src="./assests/images/yellow rating.jpg" alt="yellow star" width="45px" height="45px">
+          <figcaption>
+            <h4>BRANDING</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#">read more</a>
+          </figcaption>
+        </figure>
+
+        <figure> <img src="./assests/images/yellow rating.jpg" alt="yellow star" width="45px" height="45px">
+          <figcaption>
+            <h4>MARKETING</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#">read more</a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- our portfolio start -->
+    <div class="ourportfolio">
+      <h1>OUR<span> PORTFOLIO</span></h1>
+      <div class="para1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quae tenetur quaerat est illo. Consequuntur
+          aliquam voluptatum adipisci ratione et.</p>
+      </div>
+      <div class="field">
+        <ul>
+          <li>web design</li>
+          <li>branding</li>
+          <li class="log">logo</li>
+          <li>marketing</li>
+          <li>advertisment</li>
+        </ul>
+      </div>
+      <div class="field-images">
+        <div class="cloumn-1">
+          <img src="./assests/images/horse.png" alt="horse">
+          <img src="./assests/images/icon.PNG" alt="icon">
+          <img src="./assests/images/Creative brain.PNG" alt="creative brain">
+          <img src="./assests/images/Team success.PNG" alt="team success">
+
+        </div>
+
+        <div class="cloumn-2">
+          <img src="./assests/images/Growth place.PNG" alt="growth place">
+          <img src="./assests/images/brain works.PNG" alt="brain work">
+          <img src="./assests/images/lion group.PNG" alt="lion group">
+          <img src="./assests/images/place.PNG" alt="place">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- right div start -->
+
+  <div class="main2">
+
+    <div class="container-our-process">
+      <h3 class="our">OUR <span>PROCESS</span>
+      </h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque molestias ipsum expedita laborum non
+        voluptas?</p>
+
+      <div class="our-process-flex">
+        <figure>
+          <img src="./assests/images/request call.PNG" alt="request call" width="45px" height="45px">
+          <figcaption>
+            <h1>REQUEST CALL <br>Lorem ipsum dolor sit amet.</h1></figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assests/images/consultation.PNG" alt="consultation" height="45px" width="45px">
+          <figcaption>
+            <h1>CONSULTATION <br>Lorem ipsum dolor sit amet.</h1>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="./assests/images/planing.PNG" alt="plaining" width="45px" height="45px">
+          <figcaption>
+            <h1>planing<br>Lorem ipsum dolor sit amet.</h1>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./assests/images/work process.PNG" alt="work process" height="45px" width="45px">
+          <figcaption>
+            <h1>WORK PROCESS <br>Lorem ipsum dolor sit amet.</h1>
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+
+    <div class="our-skill">
+      <h1>OUR<span> SKILLS</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, omnis iure aperiam harum totam ad.</p>
+      <div class="our-skill-flex">
+       <figure><img src="./assests/images/progress bar 1.PNG" alt="progress bar1">
+      <figcaption>JAVA</figcaption>
+      </figure>
+
+     <figure>   <img src="./assests/images/progress report 2.PNG" alt="progress bar2">
+    <figcaption>SEO & ADS</figcaption>
+    </figure>
+      <figure>  <img src="./assests/images/progress report 3.PNG" alt="progress bar3">
+      <figcaption>BRANDING</figcaption>
+      </figure>
+     <figure>   <img src="./assests/images/progress report 4.PNG" alt="progress bar4">
+    <figcaption>WEB DESIGN</figcaption>
+    </figure>
+      </div>
+    </div>
+
+    <div class="new-project">
+      <h1>START YOUR NEW PROJECT</h1>
+      <input type="text" placeholder="your name">
+      <input type="text" placeholder="your email">
+      <input type="text" placeholder="your phone">
+      <button type="button" class="btn btn-warning ">send request</button>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusamus vitae tempora ratione
+          aliquam possimus eaque neque</p>
+
+  </div>
+<!-- our contact section -->
+<div class="our-contacts">
+  <h3 class="our">OUR <span class="adv">CONTACT</span></h3>
+  <a class="navbar-brand" href="#">
+      <img src="./assests/images/location.jpg" alt="" width="30" height="24"
+          class="d-inline-block align-text-top">
+      <p class="d-inline-block align-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quisquam </p>
+  </a>
+  <br>
+  <a class="navbar-brand" href="#">
+      <img src="./assests/images/call.png" alt="" width="30" height="24"
+          class="d-inline-block align-text-top">
+      <p class="d-inline-block align-text-center"> +1 202-918-2132 </p>
+
+  </a>
+  <a class="navbar-brand" href="#">
+      <img src="./assests/images/call.png" alt="" width="30" height="24"
+          class="d-inline-block align-text-top">
+      <p class="d-inline-block align-text-center"> +1 210-649-6210 </p>
+
+  </a>
+  <a class="navbar-brand" href="#">
+      <img src="./assests/images/call.png" alt="" width="30" height="24"
+          class="d-inline-block align-text-top">
+      <p class="d-inline-block align-text-center"> +1 208-807-8590 </p>
+
+  </a>
+
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero incidunt odit doloremque culpa alias
+      iste
+      quo, maxime ab ducimus dolor.</p>
+
+  <img style="width: 100%;  height: 200px; margin-left: auto; margin-right: auto;""
+      src="./assests/images/map.PNG" alt="">
+</div>
+
+<!-- footer section -->
+
+<div class="footer">
+  <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+              <h1 >pana <span
+                      style="color:rgb(255, 255, 255)">cloud</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <svg class="bi me-2" width="40" height="32">
+                  <use xlink:href="#bootstrap"></use>
+              </svg>
+              </a>
+
+          </div>
+
+          <div class="col mb-3">
+
+          </div>
+
+          <div class="col mb-3">
+              <h5 style="color:white">section</h5>
+              <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+black">home</p>
+                      </a></li>
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+black">Lorem.</p>
+                      </a></li>
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+  black">Lorem, ipsum.</p>
+                      </a></li>
+
+
+              </ul>
+          </div>
+
+          <div class="col mb-3">
+              <h5 style="color:white">useful links</h5>
+              <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+black">home</p>
+                      </a></li>
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+black">Lorem.</p>
+                      </a></li>
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+  black">Lorem, ipsum.</p>
+
+                      </a></li>
+
+
+              </ul>
+          </div>
+
+          <div class="col mb-3">
+              <h5 style="color:white;  ">services</h5>
+              <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+black">home</p>
+                      </a></li>
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+black">Lorem.</p>
+                      </a></li>
+                  <li class="nav-item mb-2"><a href="#">
+                          <p style="color:
+  black">Lorem, ipsum.</p>
+                      </a></li>
+
+
+              </ul>
+          </div>
+      </footer>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+</body>
+
+</html>
